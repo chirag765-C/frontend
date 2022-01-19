@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/project/calculator/projectcalculator.css">
+    <link rel="shortcut icon" href="https://st2.depositphotos.com/2419757/5782/v/380/depositphotos_57826571-stock-illustration-calculator-flat-concept-icon.jpg?forcejpeg=true" type="image/x-icon">
+    
+
+</head>
+<body>
+  
+    <div class="container">
+       <div class="tablecalculator">
+<div class="result">
+<div class="history">
+    <p id="historyvalue"></p>
+
+</div>
+<div class="ouput">
+    <p id="outputvalue"></p>
+</div>
+
+</div>
+<div class="keyboard">
+<button class="operator calcu" id="clear" onclick="clr()">C</button>
+<button class="operator calcu" id="backspace" onclick="backspace()">CE</button>
+<button class="operator calcu" id="%">%</button>
+<button class="operator calcu" id="divide" onclick="calc('/')">/</button>
+<button class="number calcu" id="7" onclick="calc('7')">7</button>
+<button class="number calcu" id="8" onclick="calc('8')">8</button>
+<button class="number calcu" id="9" onclick="calc('9')">9</button>
+<button class="operator calcu" id="multiply" onclick="calc('*')">*</button>
+<button class="number calcu" id="4" onclick="calc('4')">4</button>
+<button class="number calcu" id="5" onclick="calc('5')">5</button>
+<button class="number calcu" id="6" onclick="calc('6')">6</button>
+<button class="operator calcu" id="subtract" onclick="calc('-')">-</button>
+<button class="number calcu" id="1" onclick="calc('1')">1</button>
+<button class="number" id="2" onclick="calc('2')">2</button>
+<button class="number calcu" id="3" onclick="calc('3')">3</button>
+<button class="operator calcu" id="add" onclick="calc('+')">+</button>
+<button class="empty" id="empty"></button>
+<button class="number calcu" id="0" onclick="calc('0')">0</button>
+<button class="empty" id="empty"></button>
+<button class="operator solve" id="equal">=</button>
+
+
+</div>
+       </div>
+    </div>
+
+    <footer>
+        <p>Made with❤️by#Chirag.</p>
+    </footer>
+</body>
+<script src="/project/calculator/projectcalculator.js"></script>
+</html>
